@@ -1,0 +1,122 @@
+body {
+  background-color: lightgray;
+}
+
+h1 {
+   color: rgb(12, 173, 167);
+   background-color: white;
+   font-family: times new roman;
+   font-weight: bold;
+}
+
+h3 {
+   color: rgb(12, 173, 167);
+   background-color: white;
+   font-family: times new roman;
+   font-weight: bold;
+}
+
+img {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+p {
+ font-family: sans-serif;
+ font-size: 12
+}
+
+.container {
+background-color: white;
+}
+
+.navbar {
+       padding-left: 50px;
+}
+
+.navbar-brand {
+             background-color: rgb(12, 173, 167);
+             font-family: times new roman;
+             font-weight: bold;
+             color: white;
+}
+
+/* Here we define a navbar style that will ONLY be applied at screen sizes below 480 pixels */
+@media (max-width: 480px) {
+.navbar {
+  background-color: rgb(12, 173, 167);
+}
+
+.navbar-brand {
+               background-color: white;
+               font-family: times new roman;
+               font-weight: bold;
+               color: rgb(12, 173, 167);
+}
+
+.divTable{
+	display: table;
+	width: 100%;
+}
+
+.divTableRow {
+	display: table-row;
+}
+
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+
+.divTableBody {
+	display: table-row-group;
+}
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
